@@ -1,0 +1,81 @@
+#logo img{
+
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    padding: 5px;
+}
+#text{
+ 
+   color: darkblue;
+   text-transform: capitalize;
+   word-spacing: 2px;
+   font-size: 15px;
+   padding: 30px;
+   margin: 30px;
+   width: 50vw;
+   height: 20vh;
+   font-family: 'Josefin Sans', sans-serif;
+}
+#bg{
+
+    background-image: url('image1.jpg');
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+h3{
+
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 20px;
+    margin: 30px;
+    color: rgb(82, 218, 20);
+    font-size: 25px;
+}
+#link{
+
+    padding: 10px 100px;
+    margin: -40px;
+    color: darkblue;
+    font-size: 40px;
+
+}
+
+.button{
+         
+    width: 30vw;
+    height: 10vh;
+    margin: 0px auto;
+}
+
+.button ul li{
+
+             float: left;   
+             background-color: black;
+             color: white;
+             width: 10vw;
+             height: 8vh;
+             line-height: 8vh;
+             list-style: none; 
+             text-align: center;
+             opacity: 0.6;
+}
+
+.button ul li ul{
+
+    display: none;
+}
+
+.button ul li:hover > ul{
+
+    display: block;
+}
+
+.button ul li:hover{
+
+    background-color: teal;
+    opacity: 0.8;
+}
